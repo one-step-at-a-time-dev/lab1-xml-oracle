@@ -1,0 +1,974 @@
+<?xml version="1.0"?>
+<departamentos>
+  <departamento id="10" nombre="Administration">
+    <ubicacion>
+      <ciudad>Seattle</ciudad>
+      <pais>United States of America</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="200">
+        <nombre>Jennifer</nombre>
+        <apellido>Whalen</apellido>
+        <email>JWHALEN</email>
+        <fechaContratacion>2003-09-17</fechaContratacion>
+        <cargo>Administration Assistant</cargo>
+        <salario>4400.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="20" nombre="Marketing">
+    <ubicacion>
+      <ciudad>Toronto</ciudad>
+      <pais>Canada</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="201">
+        <nombre>Michael</nombre>
+        <apellido>Hartstein</apellido>
+        <email>MHARTSTE</email>
+        <fechaContratacion>2004-02-17</fechaContratacion>
+        <cargo>Marketing Manager</cargo>
+        <salario>13000.00</salario>
+      </empleado>
+      <empleado id="202">
+        <nombre>Pat</nombre>
+        <apellido>Fay</apellido>
+        <email>PFAY</email>
+        <fechaContratacion>2005-08-17</fechaContratacion>
+        <cargo>Marketing Representative</cargo>
+        <salario>6000.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="30" nombre="Purchasing">
+    <ubicacion>
+      <ciudad>Seattle</ciudad>
+      <pais>United States of America</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="114">
+        <nombre>Den</nombre>
+        <apellido>Raphaely</apellido>
+        <email>DRAPHEAL</email>
+        <fechaContratacion>2002-12-07</fechaContratacion>
+        <cargo>Purchasing Manager</cargo>
+        <salario>11000.00</salario>
+      </empleado>
+      <empleado id="115">
+        <nombre>Alexander</nombre>
+        <apellido>Khoo</apellido>
+        <email>AKHOO</email>
+        <fechaContratacion>2003-05-18</fechaContratacion>
+        <cargo>Purchasing Clerk</cargo>
+        <salario>3100.00</salario>
+      </empleado>
+      <empleado id="116">
+        <nombre>Shelli</nombre>
+        <apellido>Baida</apellido>
+        <email>SBAIDA</email>
+        <fechaContratacion>2005-12-24</fechaContratacion>
+        <cargo>Purchasing Clerk</cargo>
+        <salario>2900.00</salario>
+      </empleado>
+      <empleado id="117">
+        <nombre>Sigal</nombre>
+        <apellido>Tobias</apellido>
+        <email>STOBIAS</email>
+        <fechaContratacion>2005-07-24</fechaContratacion>
+        <cargo>Purchasing Clerk</cargo>
+        <salario>2800.00</salario>
+      </empleado>
+      <empleado id="118">
+        <nombre>Guy</nombre>
+        <apellido>Himuro</apellido>
+        <email>GHIMURO</email>
+        <fechaContratacion>2006-11-15</fechaContratacion>
+        <cargo>Purchasing Clerk</cargo>
+        <salario>2600.00</salario>
+      </empleado>
+      <empleado id="119">
+        <nombre>Karen</nombre>
+        <apellido>Colmenares</apellido>
+        <email>KCOLMENA</email>
+        <fechaContratacion>2007-08-10</fechaContratacion>
+        <cargo>Purchasing Clerk</cargo>
+        <salario>2500.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="40" nombre="Human Resources">
+    <ubicacion>
+      <ciudad>London</ciudad>
+      <pais>United Kingdom</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="203">
+        <nombre>Susan</nombre>
+        <apellido>Mavris</apellido>
+        <email>SMAVRIS</email>
+        <fechaContratacion>2002-06-07</fechaContratacion>
+        <cargo>Human Resources Representative</cargo>
+        <salario>6500.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="50" nombre="Shipping">
+    <ubicacion>
+      <ciudad>South San Francisco</ciudad>
+      <pais>United States of America</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="120">
+        <nombre>Matthew</nombre>
+        <apellido>Weiss</apellido>
+        <email>MWEISS</email>
+        <fechaContratacion>2004-07-18</fechaContratacion>
+        <cargo>Stock Manager</cargo>
+        <salario>8000.00</salario>
+      </empleado>
+      <empleado id="121">
+        <nombre>Adam</nombre>
+        <apellido>Fripp</apellido>
+        <email>AFRIPP</email>
+        <fechaContratacion>2005-04-10</fechaContratacion>
+        <cargo>Stock Manager</cargo>
+        <salario>8200.00</salario>
+      </empleado>
+      <empleado id="122">
+        <nombre>Payam</nombre>
+        <apellido>Kaufling</apellido>
+        <email>PKAUFLIN</email>
+        <fechaContratacion>2003-05-01</fechaContratacion>
+        <cargo>Stock Manager</cargo>
+        <salario>7900.00</salario>
+      </empleado>
+      <empleado id="123">
+        <nombre>Shanta</nombre>
+        <apellido>Vollman</apellido>
+        <email>SVOLLMAN</email>
+        <fechaContratacion>2005-10-10</fechaContratacion>
+        <cargo>Stock Manager</cargo>
+        <salario>6500.00</salario>
+      </empleado>
+      <empleado id="124">
+        <nombre>Kevin</nombre>
+        <apellido>Mourgos</apellido>
+        <email>KMOURGOS</email>
+        <fechaContratacion>2007-11-16</fechaContratacion>
+        <cargo>Stock Manager</cargo>
+        <salario>5800.00</salario>
+      </empleado>
+      <empleado id="125">
+        <nombre>Julia</nombre>
+        <apellido>Nayer</apellido>
+        <email>JNAYER</email>
+        <fechaContratacion>2005-07-16</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>3200.00</salario>
+      </empleado>
+      <empleado id="126">
+        <nombre>Irene</nombre>
+        <apellido>Mikkilineni</apellido>
+        <email>IMIKKILI</email>
+        <fechaContratacion>2006-09-28</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2700.00</salario>
+      </empleado>
+      <empleado id="127">
+        <nombre>James</nombre>
+        <apellido>Landry</apellido>
+        <email>JLANDRY</email>
+        <fechaContratacion>2007-01-14</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2400.00</salario>
+      </empleado>
+      <empleado id="128">
+        <nombre>Steven</nombre>
+        <apellido>Markle</apellido>
+        <email>SMARKLE</email>
+        <fechaContratacion>2008-03-08</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2200.00</salario>
+      </empleado>
+      <empleado id="129">
+        <nombre>Laura</nombre>
+        <apellido>Bissot</apellido>
+        <email>LBISSOT</email>
+        <fechaContratacion>2005-08-20</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>3300.00</salario>
+      </empleado>
+      <empleado id="130">
+        <nombre>Mozhe</nombre>
+        <apellido>Atkinson</apellido>
+        <email>MATKINSO</email>
+        <fechaContratacion>2005-10-30</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2800.00</salario>
+      </empleado>
+      <empleado id="131">
+        <nombre>James</nombre>
+        <apellido>Marlow</apellido>
+        <email>JAMRLOW</email>
+        <fechaContratacion>2005-02-16</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2500.00</salario>
+      </empleado>
+      <empleado id="132">
+        <nombre>TJ</nombre>
+        <apellido>Olson</apellido>
+        <email>TJOLSON</email>
+        <fechaContratacion>2007-04-10</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2100.00</salario>
+      </empleado>
+      <empleado id="133">
+        <nombre>Jason</nombre>
+        <apellido>Mallin</apellido>
+        <email>JMALLIN</email>
+        <fechaContratacion>2004-06-14</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>3300.00</salario>
+      </empleado>
+      <empleado id="134">
+        <nombre>Michael</nombre>
+        <apellido>Rogers</apellido>
+        <email>MROGERS</email>
+        <fechaContratacion>2006-08-26</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2900.00</salario>
+      </empleado>
+      <empleado id="135">
+        <nombre>Ki</nombre>
+        <apellido>Gee</apellido>
+        <email>KGEE</email>
+        <fechaContratacion>2007-12-12</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2400.00</salario>
+      </empleado>
+      <empleado id="136">
+        <nombre>Hazel</nombre>
+        <apellido>Philtanker</apellido>
+        <email>HPHILTAN</email>
+        <fechaContratacion>2008-02-06</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2200.00</salario>
+      </empleado>
+      <empleado id="137">
+        <nombre>Renske</nombre>
+        <apellido>Ladwig</apellido>
+        <email>RLADWIG</email>
+        <fechaContratacion>2003-07-14</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>3600.00</salario>
+      </empleado>
+      <empleado id="138">
+        <nombre>Stephen</nombre>
+        <apellido>Stiles</apellido>
+        <email>SSTILES</email>
+        <fechaContratacion>2005-10-26</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>3200.00</salario>
+      </empleado>
+      <empleado id="139">
+        <nombre>John</nombre>
+        <apellido>Seo</apellido>
+        <email>JSEO</email>
+        <fechaContratacion>2006-02-12</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2700.00</salario>
+      </empleado>
+      <empleado id="140">
+        <nombre>Joshua</nombre>
+        <apellido>Patel</apellido>
+        <email>JPATEL</email>
+        <fechaContratacion>2006-04-06</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2500.00</salario>
+      </empleado>
+      <empleado id="141">
+        <nombre>Trenna</nombre>
+        <apellido>Rajs</apellido>
+        <email>TRAJS</email>
+        <fechaContratacion>2003-10-17</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>3500.00</salario>
+      </empleado>
+      <empleado id="142">
+        <nombre>Curtis</nombre>
+        <apellido>Davies</apellido>
+        <email>CDAVIES</email>
+        <fechaContratacion>2005-01-29</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>3100.00</salario>
+      </empleado>
+      <empleado id="143">
+        <nombre>Randall</nombre>
+        <apellido>Matos</apellido>
+        <email>RMATOS</email>
+        <fechaContratacion>2006-03-15</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2600.00</salario>
+      </empleado>
+      <empleado id="144">
+        <nombre>Peter</nombre>
+        <apellido>Vargas</apellido>
+        <email>PVARGAS</email>
+        <fechaContratacion>2006-07-09</fechaContratacion>
+        <cargo>Stock Clerk</cargo>
+        <salario>2500.00</salario>
+      </empleado>
+      <empleado id="180">
+        <nombre>Winston</nombre>
+        <apellido>Taylor</apellido>
+        <email>WTAYLOR</email>
+        <fechaContratacion>2006-01-24</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3200.00</salario>
+      </empleado>
+      <empleado id="181">
+        <nombre>Jean</nombre>
+        <apellido>Fleaur</apellido>
+        <email>JFLEAUR</email>
+        <fechaContratacion>2006-02-23</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3100.00</salario>
+      </empleado>
+      <empleado id="182">
+        <nombre>Martha</nombre>
+        <apellido>Sullivan</apellido>
+        <email>MSULLIVA</email>
+        <fechaContratacion>2007-06-21</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>2500.00</salario>
+      </empleado>
+      <empleado id="183">
+        <nombre>Girard</nombre>
+        <apellido>Geoni</apellido>
+        <email>GGEONI</email>
+        <fechaContratacion>2008-02-03</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>2800.00</salario>
+      </empleado>
+      <empleado id="184">
+        <nombre>Nandita</nombre>
+        <apellido>Sarchand</apellido>
+        <email>NSARCHAN</email>
+        <fechaContratacion>2004-01-27</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>4200.00</salario>
+      </empleado>
+      <empleado id="185">
+        <nombre>Alexis</nombre>
+        <apellido>Bull</apellido>
+        <email>ABULL</email>
+        <fechaContratacion>2005-02-20</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>4100.00</salario>
+      </empleado>
+      <empleado id="186">
+        <nombre>Julia</nombre>
+        <apellido>Dellinger</apellido>
+        <email>JDELLING</email>
+        <fechaContratacion>2006-06-24</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3400.00</salario>
+      </empleado>
+      <empleado id="187">
+        <nombre>Anthony</nombre>
+        <apellido>Cabrio</apellido>
+        <email>ACABRIO</email>
+        <fechaContratacion>2007-02-07</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3000.00</salario>
+      </empleado>
+      <empleado id="188">
+        <nombre>Kelly</nombre>
+        <apellido>Chung</apellido>
+        <email>KCHUNG</email>
+        <fechaContratacion>2005-06-14</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3800.00</salario>
+      </empleado>
+      <empleado id="189">
+        <nombre>Jennifer</nombre>
+        <apellido>Dilly</apellido>
+        <email>JDILLY</email>
+        <fechaContratacion>2005-08-13</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3600.00</salario>
+      </empleado>
+      <empleado id="190">
+        <nombre>Timothy</nombre>
+        <apellido>Gates</apellido>
+        <email>TGATES</email>
+        <fechaContratacion>2006-07-11</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>2900.00</salario>
+      </empleado>
+      <empleado id="191">
+        <nombre>Randall</nombre>
+        <apellido>Perkins</apellido>
+        <email>RPERKINS</email>
+        <fechaContratacion>2007-12-19</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>2500.00</salario>
+      </empleado>
+      <empleado id="192">
+        <nombre>Sarah</nombre>
+        <apellido>Bell</apellido>
+        <email>SBELL</email>
+        <fechaContratacion>2004-02-04</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>4000.00</salario>
+      </empleado>
+      <empleado id="193">
+        <nombre>Britney</nombre>
+        <apellido>Everett</apellido>
+        <email>BEVERETT</email>
+        <fechaContratacion>2005-03-03</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3900.00</salario>
+      </empleado>
+      <empleado id="194">
+        <nombre>Samuel</nombre>
+        <apellido>McCain</apellido>
+        <email>SMCCAIN</email>
+        <fechaContratacion>2006-07-01</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3200.00</salario>
+      </empleado>
+      <empleado id="195">
+        <nombre>Vance</nombre>
+        <apellido>Jones</apellido>
+        <email>VJONES</email>
+        <fechaContratacion>2007-03-17</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>2800.00</salario>
+      </empleado>
+      <empleado id="196">
+        <nombre>Alana</nombre>
+        <apellido>Walsh</apellido>
+        <email>AWALSH</email>
+        <fechaContratacion>2006-04-24</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3100.00</salario>
+      </empleado>
+      <empleado id="197">
+        <nombre>Kevin</nombre>
+        <apellido>Feeney</apellido>
+        <email>KFEENEY</email>
+        <fechaContratacion>2006-05-23</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>3000.00</salario>
+      </empleado>
+      <empleado id="198">
+        <nombre>Donald</nombre>
+        <apellido>OConnell</apellido>
+        <email>DOCONNEL</email>
+        <fechaContratacion>2007-06-21</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>2600.00</salario>
+      </empleado>
+      <empleado id="199">
+        <nombre>Douglas</nombre>
+        <apellido>Grant</apellido>
+        <email>DGRANT</email>
+        <fechaContratacion>2008-01-13</fechaContratacion>
+        <cargo>Shipping Clerk</cargo>
+        <salario>2600.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="60" nombre="IT">
+    <ubicacion>
+      <ciudad>Southlake</ciudad>
+      <pais>United States of America</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="103">
+        <nombre>Alexander</nombre>
+        <apellido>Hunold</apellido>
+        <email>AHUNOLD</email>
+        <fechaContratacion>2006-01-03</fechaContratacion>
+        <cargo>Programmer</cargo>
+        <salario>9000.00</salario>
+      </empleado>
+      <empleado id="104">
+        <nombre>Bruce</nombre>
+        <apellido>Ernst</apellido>
+        <email>BERNST</email>
+        <fechaContratacion>2007-05-21</fechaContratacion>
+        <cargo>Programmer</cargo>
+        <salario>6000.00</salario>
+      </empleado>
+      <empleado id="105">
+        <nombre>David</nombre>
+        <apellido>Austin</apellido>
+        <email>DAUSTIN</email>
+        <fechaContratacion>2005-06-25</fechaContratacion>
+        <cargo>Programmer</cargo>
+        <salario>4800.00</salario>
+      </empleado>
+      <empleado id="106">
+        <nombre>Valli</nombre>
+        <apellido>Pataballa</apellido>
+        <email>VPATABAL</email>
+        <fechaContratacion>2006-02-05</fechaContratacion>
+        <cargo>Programmer</cargo>
+        <salario>4800.00</salario>
+      </empleado>
+      <empleado id="107">
+        <nombre>Diana</nombre>
+        <apellido>Lorentz</apellido>
+        <email>DLORENTZ</email>
+        <fechaContratacion>2007-02-07</fechaContratacion>
+        <cargo>Programmer</cargo>
+        <salario>4200.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="70" nombre="Public Relations">
+    <ubicacion>
+      <ciudad>Munich</ciudad>
+      <pais>Germany</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="204">
+        <nombre>Hermann</nombre>
+        <apellido>Baer</apellido>
+        <email>HBAER</email>
+        <fechaContratacion>2002-06-07</fechaContratacion>
+        <cargo>Public Relations Representative</cargo>
+        <salario>10000.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="80" nombre="Sales">
+    <ubicacion>
+      <ciudad>Oxford</ciudad>
+      <pais>United Kingdom</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="145">
+        <nombre>John</nombre>
+        <apellido>Russell</apellido>
+        <email>JRUSSEL</email>
+        <fechaContratacion>2004-10-01</fechaContratacion>
+        <cargo>Sales Manager</cargo>
+        <salario>14000.00</salario>
+        <comision>0.40</comision>
+      </empleado>
+      <empleado id="146">
+        <nombre>Karen</nombre>
+        <apellido>Partners</apellido>
+        <email>KPARTNER</email>
+        <fechaContratacion>2005-01-05</fechaContratacion>
+        <cargo>Sales Manager</cargo>
+        <salario>13500.00</salario>
+        <comision>0.30</comision>
+      </empleado>
+      <empleado id="147">
+        <nombre>Alberto</nombre>
+        <apellido>Errazuriz</apellido>
+        <email>AERRAZUR</email>
+        <fechaContratacion>2005-03-10</fechaContratacion>
+        <cargo>Sales Manager</cargo>
+        <salario>12000.00</salario>
+        <comision>0.30</comision>
+      </empleado>
+      <empleado id="148">
+        <nombre>Gerald</nombre>
+        <apellido>Cambrault</apellido>
+        <email>GCAMBRAU</email>
+        <fechaContratacion>2007-10-15</fechaContratacion>
+        <cargo>Sales Manager</cargo>
+        <salario>11000.00</salario>
+        <comision>0.30</comision>
+      </empleado>
+      <empleado id="149">
+        <nombre>Eleni</nombre>
+        <apellido>Zlotkey</apellido>
+        <email>EZLOTKEY</email>
+        <fechaContratacion>2008-01-29</fechaContratacion>
+        <cargo>Sales Manager</cargo>
+        <salario>10500.00</salario>
+        <comision>0.20</comision>
+      </empleado>
+      <empleado id="150">
+        <nombre>Peter</nombre>
+        <apellido>Tucker</apellido>
+        <email>PTUCKER</email>
+        <fechaContratacion>2005-01-30</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>10000.00</salario>
+        <comision>0.30</comision>
+      </empleado>
+      <empleado id="151">
+        <nombre>David</nombre>
+        <apellido>Bernstein</apellido>
+        <email>DBERNSTE</email>
+        <fechaContratacion>2005-03-24</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>9500.00</salario>
+        <comision>0.25</comision>
+      </empleado>
+      <empleado id="152">
+        <nombre>Peter</nombre>
+        <apellido>Hall</apellido>
+        <email>PHALL</email>
+        <fechaContratacion>2005-08-20</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>9000.00</salario>
+        <comision>0.25</comision>
+      </empleado>
+      <empleado id="153">
+        <nombre>Christopher</nombre>
+        <apellido>Olsen</apellido>
+        <email>COLSEN</email>
+        <fechaContratacion>2006-03-30</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>8000.00</salario>
+        <comision>0.20</comision>
+      </empleado>
+      <empleado id="154">
+        <nombre>Nanette</nombre>
+        <apellido>Cambrault</apellido>
+        <email>NCAMBRAU</email>
+        <fechaContratacion>2006-12-09</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>7500.00</salario>
+        <comision>0.20</comision>
+      </empleado>
+      <empleado id="155">
+        <nombre>Oliver</nombre>
+        <apellido>Tuvault</apellido>
+        <email>OTUVAULT</email>
+        <fechaContratacion>2007-11-23</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>7000.00</salario>
+        <comision>0.15</comision>
+      </empleado>
+      <empleado id="156">
+        <nombre>Janette</nombre>
+        <apellido>King</apellido>
+        <email>JKING</email>
+        <fechaContratacion>2004-01-30</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>10000.00</salario>
+        <comision>0.35</comision>
+      </empleado>
+      <empleado id="157">
+        <nombre>Patrick</nombre>
+        <apellido>Sully</apellido>
+        <email>PSULLY</email>
+        <fechaContratacion>2004-03-04</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>9500.00</salario>
+        <comision>0.35</comision>
+      </empleado>
+      <empleado id="158">
+        <nombre>Allan</nombre>
+        <apellido>McEwen</apellido>
+        <email>AMCEWEN</email>
+        <fechaContratacion>2004-08-01</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>9000.00</salario>
+        <comision>0.35</comision>
+      </empleado>
+      <empleado id="159">
+        <nombre>Lindsey</nombre>
+        <apellido>Smith</apellido>
+        <email>LSMITH</email>
+        <fechaContratacion>2005-03-10</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>8000.00</salario>
+        <comision>0.30</comision>
+      </empleado>
+      <empleado id="160">
+        <nombre>Louise</nombre>
+        <apellido>Doran</apellido>
+        <email>LDORAN</email>
+        <fechaContratacion>2005-12-15</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>7500.00</salario>
+        <comision>0.30</comision>
+      </empleado>
+      <empleado id="161">
+        <nombre>Sarath</nombre>
+        <apellido>Sewall</apellido>
+        <email>SSEWALL</email>
+        <fechaContratacion>2006-11-03</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>7000.00</salario>
+        <comision>0.25</comision>
+      </empleado>
+      <empleado id="162">
+        <nombre>Clara</nombre>
+        <apellido>Vishney</apellido>
+        <email>CVISHNEY</email>
+        <fechaContratacion>2005-11-11</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>10500.00</salario>
+        <comision>0.25</comision>
+      </empleado>
+      <empleado id="163">
+        <nombre>Danielle</nombre>
+        <apellido>Greene</apellido>
+        <email>DGREENE</email>
+        <fechaContratacion>2007-03-19</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>9500.00</salario>
+        <comision>0.15</comision>
+      </empleado>
+      <empleado id="164">
+        <nombre>Mattea</nombre>
+        <apellido>Marvins</apellido>
+        <email>MMARVINS</email>
+        <fechaContratacion>2008-01-24</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>7200.00</salario>
+        <comision>0.10</comision>
+      </empleado>
+      <empleado id="165">
+        <nombre>David</nombre>
+        <apellido>Lee</apellido>
+        <email>DLEE</email>
+        <fechaContratacion>2008-02-23</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>6800.00</salario>
+        <comision>0.10</comision>
+      </empleado>
+      <empleado id="166">
+        <nombre>Sundar</nombre>
+        <apellido>Ande</apellido>
+        <email>SANDE</email>
+        <fechaContratacion>2008-03-24</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>6400.00</salario>
+        <comision>0.10</comision>
+      </empleado>
+      <empleado id="167">
+        <nombre>Amit</nombre>
+        <apellido>Banda</apellido>
+        <email>ABANDA</email>
+        <fechaContratacion>2008-04-21</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>6200.00</salario>
+        <comision>0.10</comision>
+      </empleado>
+      <empleado id="168">
+        <nombre>Lisa</nombre>
+        <apellido>Ozer</apellido>
+        <email>LOZER</email>
+        <fechaContratacion>2005-03-11</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>11500.00</salario>
+        <comision>0.25</comision>
+      </empleado>
+      <empleado id="169">
+        <nombre>Harrison</nombre>
+        <apellido>Bloom</apellido>
+        <email>HBLOOM</email>
+        <fechaContratacion>2006-03-23</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>10000.00</salario>
+        <comision>0.20</comision>
+      </empleado>
+      <empleado id="170">
+        <nombre>Tayler</nombre>
+        <apellido>Fox</apellido>
+        <email>TFOX</email>
+        <fechaContratacion>2006-01-24</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>9600.00</salario>
+        <comision>0.20</comision>
+      </empleado>
+      <empleado id="171">
+        <nombre>William</nombre>
+        <apellido>Smith</apellido>
+        <email>WSMITH</email>
+        <fechaContratacion>2007-02-23</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>7400.00</salario>
+        <comision>0.15</comision>
+      </empleado>
+      <empleado id="172">
+        <nombre>Elizabeth</nombre>
+        <apellido>Bates</apellido>
+        <email>EBATES</email>
+        <fechaContratacion>2007-03-24</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>7300.00</salario>
+        <comision>0.15</comision>
+      </empleado>
+      <empleado id="173">
+        <nombre>Sundita</nombre>
+        <apellido>Kumar</apellido>
+        <email>SKUMAR</email>
+        <fechaContratacion>2008-04-21</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>6100.00</salario>
+        <comision>0.10</comision>
+      </empleado>
+      <empleado id="174">
+        <nombre>Ellen</nombre>
+        <apellido>Abel</apellido>
+        <email>EABEL</email>
+        <fechaContratacion>2004-05-11</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>11000.00</salario>
+        <comision>0.30</comision>
+      </empleado>
+      <empleado id="175">
+        <nombre>Alyssa</nombre>
+        <apellido>Hutton</apellido>
+        <email>AHUTTON</email>
+        <fechaContratacion>2005-03-19</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>8800.00</salario>
+        <comision>0.25</comision>
+      </empleado>
+      <empleado id="176">
+        <nombre>Jonathon</nombre>
+        <apellido>Taylor</apellido>
+        <email>JTAYLOR</email>
+        <fechaContratacion>2006-03-24</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>8600.00</salario>
+        <comision>0.20</comision>
+      </empleado>
+      <empleado id="177">
+        <nombre>Jack</nombre>
+        <apellido>Livingston</apellido>
+        <email>JLIVINGS</email>
+        <fechaContratacion>2006-04-23</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>8400.00</salario>
+        <comision>0.20</comision>
+      </empleado>
+      <empleado id="179">
+        <nombre>Charles</nombre>
+        <apellido>Johnson</apellido>
+        <email>CJOHNSON</email>
+        <fechaContratacion>2008-01-04</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>6200.00</salario>
+        <comision>0.10</comision>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="90" nombre="Executive">
+    <ubicacion>
+      <ciudad>Seattle</ciudad>
+      <pais>United States of America</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="100">
+        <nombre>Steven</nombre>
+        <apellido>King</apellido>
+        <email>SKING</email>
+        <fechaContratacion>2003-06-17</fechaContratacion>
+        <cargo>President</cargo>
+        <salario>24000.00</salario>
+      </empleado>
+      <empleado id="101">
+        <nombre>Neena</nombre>
+        <apellido>Kochhar</apellido>
+        <email>NKOCHHAR</email>
+        <fechaContratacion>2005-09-21</fechaContratacion>
+        <cargo>Administration Vice President</cargo>
+        <salario>17000.00</salario>
+      </empleado>
+      <empleado id="102">
+        <nombre>Lex</nombre>
+        <apellido>De Haan</apellido>
+        <email>LDEHAAN</email>
+        <fechaContratacion>2001-01-13</fechaContratacion>
+        <cargo>Administration Vice President</cargo>
+        <salario>17000.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="100" nombre="Finance">
+    <ubicacion>
+      <ciudad>Seattle</ciudad>
+      <pais>United States of America</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="108">
+        <nombre>Nancy</nombre>
+        <apellido>Greenberg</apellido>
+        <email>NGREENBE</email>
+        <fechaContratacion>2002-08-17</fechaContratacion>
+        <cargo>Finance Manager</cargo>
+        <salario>12008.00</salario>
+      </empleado>
+      <empleado id="109">
+        <nombre>Daniel</nombre>
+        <apellido>Faviet</apellido>
+        <email>DFAVIET</email>
+        <fechaContratacion>2002-08-16</fechaContratacion>
+        <cargo>Accountant</cargo>
+        <salario>9000.00</salario>
+      </empleado>
+      <empleado id="110">
+        <nombre>John</nombre>
+        <apellido>Chen</apellido>
+        <email>JCHEN</email>
+        <fechaContratacion>2005-09-28</fechaContratacion>
+        <cargo>Accountant</cargo>
+        <salario>8200.00</salario>
+      </empleado>
+      <empleado id="111">
+        <nombre>Ismael</nombre>
+        <apellido>Sciarra</apellido>
+        <email>ISCIARRA</email>
+        <fechaContratacion>2005-09-30</fechaContratacion>
+        <cargo>Accountant</cargo>
+        <salario>7700.00</salario>
+      </empleado>
+      <empleado id="112">
+        <nombre>Jose Manuel</nombre>
+        <apellido>Urman</apellido>
+        <email>JMURMAN</email>
+        <fechaContratacion>2006-03-07</fechaContratacion>
+        <cargo>Accountant</cargo>
+        <salario>7800.00</salario>
+      </empleado>
+      <empleado id="113">
+        <nombre>Luis</nombre>
+        <apellido>Popp</apellido>
+        <email>LPOPP</email>
+        <fechaContratacion>2007-12-07</fechaContratacion>
+        <cargo>Accountant</cargo>
+        <salario>6900.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+  <departamento id="110" nombre="Accounting">
+    <ubicacion>
+      <ciudad>Seattle</ciudad>
+      <pais>United States of America</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="205">
+        <nombre>Shelley</nombre>
+        <apellido>Higgins</apellido>
+        <email>SHIGGINS</email>
+        <fechaContratacion>2002-06-07</fechaContratacion>
+        <cargo>Accounting Manager</cargo>
+        <salario>12008.00</salario>
+      </empleado>
+      <empleado id="206">
+        <nombre>William</nombre>
+        <apellido>Gietz</apellido>
+        <email>WGIETZ</email>
+        <fechaContratacion>2002-06-07</fechaContratacion>
+        <cargo>Public Accountant</cargo>
+        <salario>8300.00</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+</departamentos>
+

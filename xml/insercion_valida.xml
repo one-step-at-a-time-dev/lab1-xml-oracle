@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<departamentos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="http://localhost/hr/departamentos_hr.xsd">
+  <departamento id="280" nombre="Desarrollo de Software">
+    <ubicacion>
+      <ciudad>Bogota</ciudad>
+      <pais>Colombia</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="300">
+        <nombre>Laura</nombre>
+        <apellido>Gomez</apellido>
+        <email>LGOMEZ</email>
+        <fechaContratacion>2026-10-20</fechaContratacion>
+        <cargo>Programmer</cargo>
+        <salario>6500.00</salario>
+      </empleado>
+      <empleado id="301">
+        <nombre>Andres</nombre>
+        <apellido>Rojas</apellido>
+        <email>AROJAS</email>
+        <fechaContratacion>2026-10-27</fechaContratacion>
+        <cargo>Sales Representative</cargo>
+        <salario>7200.00</salario>
+        <comision>0.15</comision>
+      </empleado>
+    </empleados>
+  </departamento>
+</departamentos>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Laboratorio 1 - Almacenamiento y validacion de ficheros XML en Oracle
+  Esquema XML (XSD) que representa los datos recuperados del esquema HR:
+  DEPARTMENTS + LOCATIONS + COUNTRIES + EMPLOYEES + JOBS.
+
+  Estructura:
+    departamentos (raiz)
+      departamento  [id, nombre]        1..n
+        ubicacion
+          ciudad
+          pais
+        empleados
+          empleado  [id]               1..n
+            nombre, apellido, email, fechaContratacion,
+            cargo, salario, comision (opcional)
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ===== Tipos simples reutilizables ===== -->
+  <xs:simpleType name="texto20">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="texto25">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="25"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="texto30">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="30"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="texto35">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="35"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="texto40">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="40"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- salario: NUMBER(8,2) en HR -> maximo 8 digitos, 2 decimales, > 0 -->
+  <xs:simpleType name="tipoSalario">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="8"/>
+      <xs:fractionDigits value="2"/>
+      <xs:minExclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- comision: NUMBER(2,2) en HR -> valor entre 0 y 0.99 -->
+  <xs:simpleType name="tipoComision">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="2"/>
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="0.99"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- ===== Tipos complejos ===== -->
+  <xs:complexType name="tipoUbicacion">
+    <xs:sequence>
+      <xs:element name="ciudad" type="texto30"/>
+      <xs:element name="pais"   type="texto40"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="tipoEmpleado">
+    <xs:sequence>
+      <xs:element name="nombre"            type="texto20"/>
+      <xs:element name="apellido"          type="texto25"/>
+      <xs:element name="email"             type="texto25"/>
+      <xs:element name="fechaContratacion" type="xs:date"/>
+      <xs:element name="cargo"             type="texto35"/>
+      <xs:element name="salario"           type="tipoSalario"/>
+      <xs:element name="comision"          type="tipoComision" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="tipoEmpleados">
+    <xs:sequence>
+      <xs:element name="empleado" type="tipoEmpleado" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="tipoDepartamento">
+    <xs:sequence>
+      <xs:element name="ubicacion" type="tipoUbicacion"/>
+      <xs:element name="empleados" type="tipoEmpleados"/>
+    </xs:sequence>
+    <xs:attribute name="id"     type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="nombre" type="texto30"            use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="tipoDepartamentos">
+    <xs:sequence>
+      <xs:element name="departamento" type="tipoDepartamento" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ===== Elemento raiz ===== -->
+  <xs:element name="departamentos" type="tipoDepartamentos"/>
+
+</xs:schema>

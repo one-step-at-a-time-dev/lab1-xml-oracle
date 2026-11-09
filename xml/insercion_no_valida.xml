@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<departamentos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="http://localhost/hr/departamentos_hr.xsd">
+  <departamento id="290" nombre="Soporte Tecnico">
+    <ubicacion>
+      <ciudad>Medellin</ciudad>
+      <pais>Colombia</pais>
+    </ubicacion>
+    <empleados>
+      <empleado id="302">
+        <nombre>Camila</nombre>
+        <apellido>Torres</apellido>
+        <email>CTORRES</email>
+        <fechaContratacion>2026-11-03</fechaContratacion>
+        <cargo>Programmer</cargo>
+        <salario>seis mil</salario>
+      </empleado>
+    </empleados>
+  </departamento>
+</departamentos>
