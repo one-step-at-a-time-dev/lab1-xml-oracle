@@ -1,7 +1,7 @@
 # Laboratorio 1 – Almacenamiento y validación de ficheros XML en Oracle
 
 Bases de Datos Avanzadas · Docente: Deivis Eduard Ramírez Martínez
-Integrantes: [Integrante 1] · [Integrante 2] · [Integrante 3]
+Estudiante: Steven Alexander Garcia Villada
 
 ## Entorno
 - Oracle Database 21c Express Edition (contenedor `XEPDB1`)
@@ -24,7 +24,7 @@ Integrantes: [Integrante 1] · [Integrante 2] · [Integrante 3]
 ## Orden de ejecución (conectado como HR)
 1. `01_consulta_sqlxml.sql` → ver el XML generado.
 2. `02_exportar_fichero_xml.sql` → crear `departamentos_hr.xml`.
-3. Validar `departamentos_hr.xml` contra `departamentos_hr.xsd` en https://www.freeformatter.com/xml-validator-xsd.html
+3. Validar `departamentos_hr.xml` contra `departamentos_hr.xsd` en https://www.liquid-technologies.com/online-xsd-validator (resultado: *Document Valid*)
 4. `03_registrar_esquema.sql` → registrar el esquema y crear la tabla.
 5. `04_inserciones.sql` → la primera inserción se acepta; la segunda falla por `<salario>seis mil</salario>`.
-6. `05_verificaciones.sql` → `XMLISVALID = 1`.
+6. `05_verificaciones.sql` → `XMLISVALID = 1` (fija `NLS_NUMERIC_CHARACTERS = '.,'` para que los decimales usen punto).
