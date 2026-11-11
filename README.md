@@ -1,7 +1,7 @@
 # Laboratorio 1 – Almacenamiento y validación de ficheros XML en Oracle
 
 Bases de Datos Avanzadas · Docente: Deivis Eduard Ramírez Martínez
-Estudiante: Steven Alexander Garcia Villada
+Estudiante: Carlos Julian Valenzuela Garcia 
 
 ## Entorno
 - Oracle Database 21c Express Edition (contenedor `XEPDB1`)
